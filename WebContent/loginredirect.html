@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+   <head>
+     <title>Error</title> 
+     <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+	 <link rel="stylesheet" href="blueberry.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+    <script src="jquery.blueberry.js"></script>
+	 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"/>
+	 <link href="search.css" rel="stylesheet"/>
+	 <link href="dropdown.css" rel="stylesheet"/>
+	 
+  <script>
+     $(window).load(function(){
+	  $('.blueberry').blueberry();
+	  });
+  </script>
+  <style type="text/css">
+	     body
+		 {
+		  background:#DBDBFF;
+	      font:14px/20px ;
+	      color:#555;
+	      margin:0;
+		  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		  text-align: center;
+		 }
+		 h2
+		 {
+		  text-decoration:underline;
+		  line-height:280%;
+		  padding:2%;
+		 }
+		
+		
+		  img
+		  {
+		   text-align:center;
+		   max-width:100%;
+		    height:auto;
+        	 width:auto;
+		   
+		  }
+		  a
+		  {
+		   color:blue;
+		   text-decoration:none;
+		   font-weight:gold;
+		  }
+        a:hover
+	    {
+	     color:#FFF;
+	     text-decoration:underline;
+	    }
+	header
+	{
+	  background:#405580;
+	  width:100%;
+	  height:85px;
+	  position:fixed;
+	  top:0;
+	  left:0;
+	  z-index:100;//stays above
+	  opacity:0.90;
+	}
+	#logo
+	{
+	  margin:1px;
+	  float:left;
+	  width:350px;
+	  height:50px;
+	  background:url(logo2.png) no-repeat center;
+	  padding-bottom:2px;
+	}
+	 ul
+    {
+      list-style:none;
+    }
+	nav ul li
+	{
+	    float:right;
+	    padding:10px;
+	    display:inline-block;
+		padding-top:10px;
+	  
+	} 
+	
+	.navlist{
+           width:29%;
+		   float:left;
+		   margin:2% 2%;
+		   text-align:center;
+         }
+   
+   
+	#current
+	{
+	color:#FFF;
+	  text-decoration:underline;
+	}
+	#doc{
+         margin:40px 0;
+		 
+       }
+	  #content{
+	          margin:0 auto;
+			  max-width:1140px;
+			  margin-top:110px;
+	         }
+       .blueberry{
+	           max-width:960px;
+			   margin-top:110px;
+	          }	
+    section{
+           width:29%;
+		   float:left;
+		   margin:2% 2%;
+		   text-align:center;
+         }
+		 section.A
+		 {
+		   width:20%;
+		   float:left;
+		    margin:1%;
+		  
+		   
+		 }
+		 section.A h2
+		 {
+		  text-align:center;
+		  color:#FF8D70;
+		 }
+		 section.A ul li
+		 {
+		  padding-left:0;
+		  
+		 }
+		 section.A ul li a
+		 {
+		   color:#0099CC;
+		 }
+		 
+  .clear
+         {
+		   clear:both;
+		 }	
+  
+
+  footer{
+			    background:#333333;
+				width:100%;
+				overflow:hidden;
+				opacity:0.90;
+				}
+   footer p,footer h3
+     {
+	   color:#FFF;
+	 }
+	 .hello
+		{
+		 border-top:1px solid #4D4E50;
+		  background:#333333;
+		  max-height:60px;
+		  text-align:center;
+		  opacity:0.95;
+		}
+		ul.social li
+		{
+		 display:inline;
+		 padding:2px;
+		}
+		ul.social li img
+		{
+		  height:25%;
+		  width:20%
+		}
+		img.service
+		{
+		   height:25%;
+		    width:20%
+		}
+	
+	 
+		
+	 </style>
+  </head>
+ <body>
+    <header>
+	  
+	  <section  class="head">
+        <a href="#" id="logo"></a>
+	  </section>
+		 
+		   <section class="box">
+           <div class="container-4">
+		       <form method="get" action="search.jsp">
+                 <input type="search" id="search" placeholder="Search..." required />
+                 <button class="icon" onclick="login.html"><i class="fa fa-search"></i></button>
+			 </form>
+          </div>
+          </section>
+			<nav>
+			  <section class="navlist">
+			  <ul class="drop1">
+			     <li>Contact</li>
+				 <li>Cart</li>
+				 
+				 <li>User
+                   <ul class="drop2">
+                      
+                      <li><a href="login.html" >sign in</a></li>
+					  <li><a href="#">sign out</a></li>
+					 <li><a href="signup.html">sign up</a></li>
+                     
+                   </ul>
+                </li>
+				<li>About</li>
+			     <li><a href="homepage.jsp">Home</a></li>
+                
+                
+  
+  
+              </ul>
+			  </section>>
+		 </nav>
+	</header>
+	<section class="A">
+	     <h2>Books</h2>
+		 <ul>
+		    <li><a href="engineering.html"><h3>Engineering<h3></a></li>
+			<li><a href="#"><h3>Goverment Services</h3></a></li>
+			<li><a href="#"><h3>Banking & Finance<h3></a></li>
+			<li><a href="#"><h3>Medical</h3></a></li>
+			<li><a href="#"><h3>Literature And fiction</h3></a></li>
+			<li><a href="#"><h3>Biographies and auto biographies</h3></a></li>
+			<li><a href="#"><h3>Children and Teen</h3></a></li>
+			<li><a href="#"><h3>Religion And Spirituality<h3></a></li>
+			<li><a href="#"><h3>sports and Exercises</h3></a></li>
+			<li><a href="#"><h3>Others</h3></a></li>
+			
+		 </ul>
+	</section>
+	<div id="doc"><!---for image slider--->
+	    <div id="content">
+		    <h1>Success</h1> 
+      </div>
+	</div>
+	
+
+	
+	
+	<footer>
+	    <section>
+		   <img src="service.png" class="service"/>
+		   <p>Happy to help 24X7, call us on 8882082333,8743937887</p>
+		</section>
+	    <section>
+		   <h3>connect with us!</h3>
+		    <ul class ="social">
+			  <li><a href="https://www.facebook.com/"><img src="facebook.jpg"/></a></li>
+			  <li><a href="https://plus.google.com/"><img src="googleplus.jpg"/></a></li>
+			  <li><a href="https://twitter.com"><img src="tweeter1.jpg"/></a></li>
+			</ul>
+		</section>
+		<section>
+		   <h3>100% Assurance & promise</p>
+		   <p> we provide 100% assurance. If you have any issue, your money is immediately refunded. Sit back and enjoy your shopping.
+		   </p>
+		</section>
+	</footer>
+	<footer class="hello">
+	   <p>@Copyright Bcart 2015.</p>
+	</footer>
+	
+	
+ </body>

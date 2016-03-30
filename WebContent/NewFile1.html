@@ -1,0 +1,39 @@
+					<c:choose>
+						<c:when test="${sessionScope.email != null && sessionScope.name != null}" >
+							<c:set var="email" value="email" />
+							<c:set var="name" value="name" />
+							<li><c:out value="${name}"></c:out>
+								<ul class="drop2">
+									<li><a href="signout.jsp">sign out</a></li>
+								</ul>
+							</li>
+						</c:when>
+						<c:otherwise>
+							<li>User
+								<ul class="drop2">
+									<li><a href="signup.html">sign up</a></li>
+									<li><a href="login.html">sign in</a></li>
+								</ul>
+							</li>
+						</c:otherwise>	
+					</c:choose>
+					
+					
+					<!--<jsp:useBean id="conn1" class="connection.ConnManager" scope="page"/>-->
+
+	<!-- <c:param name="searchby"></c:param> -->
+
+	<!--  <h1 style="font-size: 100px"> <c:out value="${searchby }"></c:out> </h1>-->
+	
+	
+	<c:choose>
+		<c:when test="${fn:containsIgnoreCase(param.searchby,'author')}">yes
+		</c:when>
+		<c:otherwise>no
+		</c:otherwise>
+	</c:choose>
+	
+	
+	http://localhost:8080/bookstore/'/bookstore/images/data-structures
+	
+	http://localhost:8080/bookstore/images/halfgirlfriend.jpg
