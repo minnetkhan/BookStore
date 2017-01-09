@@ -1,8 +1,9 @@
 # BookStore
-Bookstore is online portal for bookstore. 
-This dynamic web application is developed in pure java. 
-It has all the features like searching books which is present in database, details of books, user can signup and make account and they can login too.
-Register users have privilege of buying books.
+Bookstore is an online portal for buying books. 
+There is also an admin panel where admin can maintain the database.
+This dynamic web application is developed in core java. 
+It has all the features like searching books which are present in database, details of books, user can signup and
+make an account. Registered users can buy books.
 
 ##Technologies used
 JAVA,
@@ -10,4 +11,6 @@ Servlets,
 JSP,
 JSTL,
 JDBC.
+
+
 
