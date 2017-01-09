@@ -6,11 +6,13 @@ It has all the features like searching books which are present in database, deta
 make an account. Registered users can buy books.
 
 ##Technologies used
-JAVA,
-Servlets,
-JSP,
-JSTL,
-JDBC.
+
+###Backend
+JAVA, Servlets, JSP, JSTL, JDBC and MySQL
+
+###Frontend
+HTML, CSS, JavaScript, Bootstrap and AJAX.
+
 
 
 
