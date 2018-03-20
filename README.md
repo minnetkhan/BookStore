@@ -2,9 +2,9 @@
 A bookstore management system where buyers can register for an account, search books, and buy books. Sellers can sells books, and manage the inventory of the books. And more.
 
 ## Technologies
-  ###Frontend
+  ### Frontend
     HTML/CSS/Javascript
-  ###Backend
+  ### Backend
     Java/Servlet/JSP/JDBC
 
 ## Overview
