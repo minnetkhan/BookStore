@@ -1,18 +1,11 @@
-# BookStore
-Bookstore is an online portal for buying books. 
-There is also an admin panel where admin manages the database.
-This dynamic web application is developed in core java. 
-It has all the features like searching books which are present in database, details of books, user can signup and
-make an account. Registered users can buy books.
+# Bookstore-Management-System
+A bookstore management system where buyers can register for an account, search books, and buy books. Sellers can sells books, and manage the inventory of the books. And more.
 
-##Technologies used
+## Technologies
+  ###Frontend
+    HTML/CSS/Javascript
+  ###Backend
+    Java/Servlet/JSP/JDBC
 
-###Backend
-JAVA, Servlets, JSP, JSTL, JDBC and MySQL
-
-###Frontend
-HTML, CSS, JavaScript, Bootstrap and AJAX.
-
-
-
-
+## Overview
+Our system has four types of users: Visitors, Registered Users, Sellers, and Admin. Users can only browse and search books, while registered users can buy books and sellers can buy and sell books. In addition, registered users can rate, comment, complain on books and sellers. Both the registered users and sellers are managed and administered by the Admin. Admin can upgrade a register user to seller, blacklist a seller, cancel an account, etc.
